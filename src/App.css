@@ -1,0 +1,75 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-layout {
+  min-height: 100vh;
+  background: transparent !important;
+}
+
+.app-sider {
+  background: rgba(2, 6, 23, 0.85) !important;
+  border-right: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.sider-header {
+  padding: 28px 24px 20px;
+}
+
+.sider-logo {
+  display: inline-block;
+  color: #38bdf8;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.app-menu {
+  background: transparent !important;
+  border-inline-end: none !important;
+  color: rgba(226, 232, 240, 0.72) !important;
+}
+
+.app-menu .ant-menu-item {
+  color: inherit !important;
+}
+
+.app-menu .ant-menu-item:hover {
+  color: #38bdf8 !important;
+}
+
+.app-menu .ant-menu-item-selected {
+  background: rgba(56, 189, 248, 0.16) !important;
+  color: #38bdf8 !important;
+}
+
+.app-menu .ant-menu-item-selected::after {
+  border-right-color: #38bdf8 !important;
+}
+
+.app-content {
+  min-height: 100vh;
+  background: transparent !important;
+  padding: clamp(24px, 5vw, 48px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.content-inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-shell {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(24px, 4vw, 48px) 0;
+}
