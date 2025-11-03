@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1762130034178" clover="3.2.0">
+  <project timestamp="1762130034179" name="All files">
+    <metrics statements="74" coveredstatements="74" conditionals="38" coveredconditionals="33" methods="33" coveredmethods="33" elements="145" coveredelements="140" complexity="0" loc="74" ncloc="74" packages="1" files="4" classes="4"/>
+    <file name="App.jsx" path="C:\Users\bengu\OneDrive\Desktop\ben\react-demo\src\App.jsx">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="27" count="5" type="stmt"/>
+      <line num="29" count="5" type="stmt"/>
+      <line num="63" count="2" type="stmt"/>
+    </file>
+    <file name="MultiSelectFilterDemo.jsx" path="C:\Users\bengu\OneDrive\Desktop\ben\react-demo\src\MultiSelectFilterDemo.jsx">
+      <metrics statements="52" coveredstatements="52" conditionals="22" coveredconditionals="21" methods="24" coveredmethods="24"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="53" count="5" type="stmt"/>
+      <line num="54" count="24" type="stmt"/>
+      <line num="57" count="19" type="stmt"/>
+      <line num="58" count="19" type="stmt"/>
+      <line num="59" count="19" type="stmt"/>
+      <line num="61" count="19" type="stmt"/>
+      <line num="62" count="14" type="stmt"/>
+      <line num="63" count="140" type="stmt"/>
+      <line num="64" count="111" type="stmt"/>
+      <line num="67" count="140" type="stmt"/>
+      <line num="73" count="19" type="stmt"/>
+      <line num="74" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="75" count="8" type="stmt"/>
+      <line num="78" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="79" count="4" type="stmt"/>
+      <line num="82" count="2" type="stmt"/>
+      <line num="85" count="19" type="stmt"/>
+      <line num="86" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="87" count="8" type="stmt"/>
+      <line num="90" count="4" type="stmt"/>
+      <line num="91" count="22" type="stmt"/>
+      <line num="96" count="19" type="cond" truecount="2" falsecount="0"/>
+      <line num="97" count="14" type="stmt"/>
+      <line num="99" count="19" type="stmt"/>
+      <line num="100" count="3" type="stmt"/>
+      <line num="101" count="3" type="stmt"/>
+      <line num="104" count="19" type="stmt"/>
+      <line num="105" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="106" count="1" type="stmt"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="108" count="1" type="stmt"/>
+      <line num="109" count="1" type="stmt"/>
+      <line num="112" count="3" type="stmt"/>
+      <line num="115" count="19" type="stmt"/>
+      <line num="116" count="1" type="stmt"/>
+      <line num="117" count="1" type="stmt"/>
+      <line num="118" count="1" type="stmt"/>
+      <line num="121" count="19" type="stmt"/>
+      <line num="158" count="19" type="stmt"/>
+      <line num="163" count="5" type="cond" truecount="1" falsecount="1"/>
+      <line num="167" count="2" type="stmt"/>
+      <line num="169" count="19" type="stmt"/>
+      <line num="176" count="4" type="stmt"/>
+      <line num="177" count="4" type="stmt"/>
+      <line num="178" count="4" type="stmt"/>
+      <line num="187" count="1" type="stmt"/>
+      <line num="188" count="1" type="stmt"/>
+      <line num="189" count="1" type="stmt"/>
+      <line num="217" count="79" type="stmt"/>
+      <line num="226" count="220" type="stmt"/>
+    </file>
+    <file name="TextTypingDemo.jsx" path="C:\Users\bengu\OneDrive\Desktop\ben\react-demo\src\TextTypingDemo.jsx">
+      <metrics statements="15" coveredstatements="15" conditionals="16" coveredconditionals="12" methods="7" coveredmethods="7"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="9" type="stmt"/>
+      <line num="9" count="9" type="stmt"/>
+      <line num="11" count="9" type="stmt"/>
+      <line num="12" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="8" type="stmt"/>
+      <line num="18" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="8" type="stmt"/>
+      <line num="24" count="9" type="cond" truecount="1" falsecount="1"/>
+      <line num="25" count="9" type="stmt"/>
+      <line num="27" count="9" type="stmt"/>
+      <line num="40" count="8" type="stmt"/>
+      <line num="46" count="8" type="stmt"/>
+    </file>
+    <file name="main.jsx" path="C:\Users\bengu\OneDrive\Desktop\ben\react-demo\src\main.jsx">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="6" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>

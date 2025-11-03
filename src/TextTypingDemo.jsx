@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import './TextTypingDemo.css'
 
-const sampleText =
+export const sampleText =
   'This is the sample text that will be typed character by character to simulate the effect of people typing.'
 
-function useCharacterTyping(text, typingDelay = 80, holdDelay = 1800) {
+export function useCharacterTyping(text, typingDelay = 80, holdDelay = 1800) {
   const characters = useMemo(() => [...text], [text])
   const [index, setIndex] = useState(0)
 
@@ -32,9 +32,16 @@ function useCharacterTyping(text, typingDelay = 80, holdDelay = 1800) {
   }
 }
 
-function TextTypingDemo() {
-  const { typedText, typedCharCount, totalChars, isHolding } =
-    useCharacterTyping(sampleText)
+function TextTypingDemo({
+  text = sampleText,
+  typingDelay,
+  holdDelay,
+} = {}) {
+  const { typedText, typedCharCount, totalChars, isHolding } = useCharacterTyping(
+    text,
+    typingDelay,
+    holdDelay,
+  )
 
   return (
     <div className="demo-shell">
