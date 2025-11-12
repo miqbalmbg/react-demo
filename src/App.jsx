@@ -1,6 +1,8 @@
 import { ConfigProvider, Layout, Menu } from 'antd'
 import { useState } from 'react'
 import 'antd/dist/reset.css'
+import GeocodeSearchDemo from './GeocodeSearchDemo'
+import ReverseGeocodeDemo from './ReverseGeocodeDemo'
 import MultiSelectFilterDemo from './MultiSelectFilterDemo'
 import TextTypingDemo from './TextTypingDemo'
 import './App.css'
@@ -16,11 +18,21 @@ const menuItems = [
     key: 'filter',
     label: 'Multi-select filter',
   },
+  {
+    key: 'geocode',
+    label: 'Geocode lookup',
+  },
+  {
+    key: 'reverse',
+    label: 'Reverse geocode',
+  },
 ]
 
 const demoComponents = {
   typing: <TextTypingDemo />,
   filter: <MultiSelectFilterDemo />,
+  geocode: <GeocodeSearchDemo />,
+  reverse: <ReverseGeocodeDemo />,
 }
 
 function App() {

@@ -46,8 +46,39 @@ const Menu = ({ items = [], onClick, selectedKeys = [] }) =>
     ),
   )
 
-const Button = ({ children, onClick, type: variant = 'default', block: _block, ...props }) =>
-  React.createElement('button', { ...props, type: 'button', 'data-variant': variant, onClick }, children)
+const Button = ({
+  children,
+  onClick,
+  type: variant = 'default',
+  htmlType = 'button',
+  loading = false,
+  block: _block,
+  ...props
+}) =>
+  React.createElement(
+    'button',
+    {
+      ...props,
+      type: htmlType,
+      'data-variant': variant,
+      'data-loading': loading ? 'true' : 'false',
+      onClick,
+    },
+    children,
+  )
+
+const Input = React.forwardRef(({ onPressEnter, ...props }, ref) =>
+  React.createElement('input', {
+    ...props,
+    ref,
+    onKeyDown: (event) => {
+      if (event.key === 'Enter') {
+        onPressEnter?.(event)
+      }
+      props.onKeyDown?.(event)
+    },
+  }),
+)
 
 const Divider = (props) => React.createElement('hr', props)
 
@@ -143,6 +174,7 @@ module.exports = {
   ConfigProvider,
   Divider,
   Empty,
+  Input,
   Layout,
   Menu,
   Select,
